@@ -30,73 +30,107 @@ HUGO_VERSION = "0.69.2"
 HUGO_ENABLEGITINFO = "true"
 
 [[redirects]]
+  from = "/docs"
+  to = "https://docs.tinkerbell.org/"
+  status = 301
+
+[[redirects]]
   from = "/components"
-  to = "/docs/#whats-powering-tinkerbell"
+  to = "https://docs.tinkerbell.org/#whats-powering-tinkerbell"
   status = 301
 
 [[redirects]]
   from = "/documentation"
-  to = "/docs"
+  to = "https://docs.tinkerbell.org/"
   status = 301
 
 [[redirects]]
   from = "/concepts"
-  to = "/docs"
+  to = "https://docs.tinkerbell.org/"
   status = 301
 
 [[redirects]]
   from = "/architecture"
-  to = "/docs/architecture"
+  to = "https://docs.tinkerbell.org/architecture"
+  status = 301
+
+[[redirects]]
+  from = "/docs/architecture"
+  to = "https://docs.tinkerbell.org/architecture"
   status = 301
 
 [[redirects]]
   from = "/setup"
-  to = "/docs/setup"
+  to = "https://docs.tinkerbell.org"
+  status = 301
+[[redirects]]
+  from = "/docs/setup"
+  to = "https://docs.tinkerbell.org"
   status = 301
 
 [[redirects]]
   from = "/setup/local-with-vagrant"
-  to = "/docs/setup/local-with-vagrant"
+  to = "https://docs.tinkerbell.org/setup/local-vagrant"
+  status = 301
+[[redirects]]
+  from = "docs/setup/local-with-vagrant"
+  to = "https://docs.tinkerbell.org/setup/local-vagrant"
+  status = 301
+
+[[redirects]]
+  from = "docs/setup/local-with-vagrant/extending-vagrant"
+  to = "https://docs.tinkerbell.org/setup/extending-vagrant"
   status = 301
 
 [[redirects]]
   from = "/setup/packet-with-terraform"
-  to = "/docs/setup/packet-with-terraform"
+  to = "https://docs.tinkerbell.org/setup/packet-with-terraform"
   status = 301
 
 [[redirects]]
   from = "/setup/packet-with-terraform/provisioner"
-  to = "/docs/setup/packet-with-terraform/provisioner"
+  to = "https://docs.tinkerbell.org/setup/packet-with-terraform/provisioner"
   status = 301
 
 [[redirects]]
   from = "/setup/packet-with-terraform/hardware-data"
-  to = "/docs/setup/packet-with-terraform/hardware-data"
+  to = "https://docs.tinkerbell.org/setup/packet-with-terraform/hardware-data"
   status = 301
 
+[[redirects]]
+  from = "/docs/hardware-data"
+  to = "https://docs.tinkerbell.org/about/hardware-data"
+  status = 301
 [[redirects]]
   from = "/hardware-data"
-  to = "/docs/hardware-data"
+  to = "https://docs.tinkerbell.org/about/hardware-data"
   status = 301
 
+[[redirects]]
+  from = "/docs/templates"
+  to = "https://docs.tinkerbell.org/about/templates"
+  status = 301
 [[redirects]]
   from = "/templates"
-  to = "/docs/templates"
+  to = "https://docs.tinkerbell.org/about/templates"
   status = 301
 
 [[redirects]]
+  from = "/docs/troubleshooting"
+  to = "https://docs.tinkerbell.org/troubleshooting"
+  status = 301
+[[redirects]]
   from = "/troubleshooting"
-  to = "/docs/troubleshooting"
+  to = "https://docs.tinkerbell.org/troubleshooting"
   status = 301
 
 [[redirects]]
   from = "/cli-reference"
-  to = "/cli"
+  to = "https://docs.tinkerbell.org/
   status = 301
-
 [[redirects]]
-  from = "/cli-reference/hardware"
-  to = "/cli/hardware"
+  from = "/docs/cli-reference"
+  to = "https://docs.tinkerbell.org/
   status = 301
 
 [[redirects]]
@@ -131,35 +165,86 @@ HUGO_ENABLEGITINFO = "true"
 
 [[redirects]]
   from = "/docs/setup/packet-with-terraform"
-  to = "/docs/setup/terraform"
+  to = "https://docs.tinkerbell.org/setup/terraform"
   status = 301
 
 [[redirects]]
   from = "/setup/packet-with-terraform/provisioner"
-  to = "/docs/setup/terraform/provisioner"
+  to = "https://docs.tinkerbell.org/setup/terraform/provisioner"
   status = 301
 
 [[redirects]]
   from = "/setup/packet-with-terraform/hardware-data"
-  to = "/docs/setup/terraform/hardware-data"
+  to = "https://docs.tinkerbell.org/setup/terraform/hardware-data"
   status = 301
 
 [[redirects]]
   from = "/cli"
-  to = "/docs/cli"
+  to = "https://docs.tinkerbell.org/"
+  status = 301
+[[redirects]]
+  from = "/docs/cli"
+  to = "https://docs.tinkerbell.org/"
   status = 301
 
+[[redirects]]
+  from = "/docs/cli/hardware"
+  to = "https://docs.tinkerbell.org/cli-reference/hardware"
+  status = 301
 [[redirects]]
   from = "/cli/hardware"
-  to = "/docs/cli/hardware"
+  to = "https://docs.tinkerbell.org/cli-reference/hardware"
   status = 301
 
+[[redirects]]
+  from = "/docs/cli/template"
+  to = "https://docs.tinkerbell.org/cli-reference/template"
+  status = 301
 [[redirects]]
   from = "/cli/template"
-  to = "/docs/cli/template"
+  to = "https://docs.tinkerbell.org/cli-reference/template"
   status = 301
 
 [[redirects]]
+  from = "/docs/cli/workflow"
+  to = "https://docs.tinkerbell.org/cli-reference/workflow"
+  status = 301
+[[redirects]]
   from = "/cli/workflow"
-  to = "/docs/cli/workflow"
+  to = "https://docs.tinkerbell.org/cli-reference/workflow"
+  status = 301
+
+[[redirects]]
+  from = "/docs/services"
+  to = "https://docs.tinkerbell.org/"
+  status = 301
+
+[[redirects]]
+  from = "/docs/services/boots"
+  to = "https://docs.tinkerbell.org/services/boots"
+  status = 301
+
+[[redirects]]
+  from = "/docs/services/hegel"
+  to = "https://docs.tinkerbell.org/services/hegel"
+  status = 301
+
+[[redirects]]
+  from = "/docs/services/osie"
+  to = "https://docs.tinkerbell.org/services/osie"
+  status = 301
+
+[[redirects]]
+  from = "/docs/services/tink"
+  to = "https://docs.tinkerbell.org/services/tink"
+  status = 301
+
+[[redirects]]
+  from = "/docs/setup"
+  to = "https://docs.tinkerbell.org/"
+  status = 301
+
+[[redirects]]
+  from = "/docs/workflows"
+  to = "https://docs.tinkerbell.org/about/workflows"
   status = 301
